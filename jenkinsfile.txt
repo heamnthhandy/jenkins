@@ -1,6 +1,7 @@
 pipeline {
     agent any 
     #changes from git and cheking the result in node via updating throug ansible master
+    #second changes from git and cheking the result in node via updating throug ansible master
     stages {
         stage('Build') { 
             steps {
